@@ -6,7 +6,7 @@ metadata:
   labels:
     app: mqtt
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 1883
     protocol: TCP
